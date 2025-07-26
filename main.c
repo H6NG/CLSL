@@ -46,5 +46,16 @@ int main() {
 
     printf("your char is: %c, and your int is: %i\n", l, o);
 
+    int hello = 0; 
+    int Hello = 3; 
+    float Pi = 3.14; 
+    float fib = 1.618; 
+    double result; 
+
+    printf("%i\n", hello + Hello);
+    printf("%.2f\n", fib + Pi); 
+
+    // Use float if memory is your concern and double if precision is your concern
+
     return 0; 
 }
