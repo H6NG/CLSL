@@ -1,8 +1,12 @@
+
 main: main.c 
-	clang main.c -o main 
+	clang main.c -o main
 run: main
 	./main 
-sure: main 
-	./main
 
-#running command
+#running command 
+
+sure: sure.c 
+	clang sure.c -o sure 
+runs: main
+	./sure

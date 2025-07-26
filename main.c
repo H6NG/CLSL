@@ -56,6 +56,12 @@ int main() {
     printf("%.2f\n", fib + Pi); 
 
     // Use float if memory is your concern and double if precision is your concern
+    int x = 4; 
+    int y = 2; 
+
+    int divide = x/y; 
+
+    printf("%i\n", divide);
 
     return 0; 
 }
