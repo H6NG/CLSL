@@ -1,0 +1,3 @@
+** Look at the .gitignore file, there's nothing to add, it's all automatic... **
+
+if you learn c++ before c, you'll notice it's pretty much the same...
