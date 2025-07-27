@@ -17,3 +17,7 @@ c: a.c
 runss: main 
 	./a
 
+k: string.c 
+	clang string.c -o string
+walk: main 
+	./string
