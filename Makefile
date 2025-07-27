@@ -10,3 +10,10 @@ sure: sure.c
 	clang sure.c -o sure 
 runs: main
 	./sure
+
+
+c: a.c 
+	clang a.c -o c 
+runss: main 
+	./a
+
