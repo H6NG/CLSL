@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){ 
 
@@ -29,10 +30,27 @@ int main(){
 
     printf("%s\n", greetings); // it puts the letters together ç
 
-    printf("%zu\n", sizeof(greetings)); // don't forget %zu for sizeof() 
+    printf("%zu\n", sizeof(greetings)/sizeof(greetings[0])); // don't forget %zu for sizeof() 
+
+    char messagebefore[] = "hello"; 
+    char messageafter[] = "John"; 
+
+    printf("%s %s\n", messagebefore, messageafter); 
+
+    printf("his name is %s\nand he\'s alright\n", messageafter);
 
 
+    //strlen needs the header <string.h> and %lu and includes a \0 (null)
+    /*strlen less efficient because it has to loop through each character until it finds '\0'.*/
 
+    printf("%lu\n", strlen(greetings));
+
+
+    char before[20] = "Hello World"; 
+    char after[20] = " john"; 
+
+    strcat(before, after);
+    printf("%s\n", before);
 
     return 0; 
 }
