@@ -49,8 +49,22 @@ int main(){
     char before[20] = "Hello World"; 
     char after[20] = " john"; 
 
-    strcat(before, after);
+    printf("%i\n", strcmp(before,after));
+
+    strcat(before, after); //combining strcat()
     printf("%s\n", before);
+
+    strcpy(before,after); // therefore before is now equal to after 
+    
+    printf("%i\n", strcmp(before, after));
+
+    int nums;
+    printf("what number do you think about: "); 
+    scanf("%i", &nums); //don't forget that &
+
+    printf("%i\n", nums); 
+
+
 
     return 0; 
 }
