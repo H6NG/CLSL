@@ -65,6 +65,26 @@ int main(){
     printf("%i\n", nums); 
 
 
+    int x; 
+    char y; 
+
+    printf("Choose an integer x-value and choose a char y-value: ");
+    scanf("%i %c", &x, &y);
+
+    printf("you\'re value of x is %i, and you\'re value of y is %c\n", x, y);
+
+    int myAge = 20; 
+    printf("%i\n", myAge); 
+    printf("%p\n", &myAge); // %p for pointer adress
+
+    int* pointer = &myAge;
+
+    printf("%p\n", pointer);
+
+    printf("%i\n", *pointer);
+    
+
+
 
     return 0; 
 }
