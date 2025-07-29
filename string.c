@@ -77,14 +77,15 @@ int main(){
     printf("%i\n", myAge); 
     printf("%p\n", &myAge); // %p for pointer adress
 
-    int* pointer = &myAge;
+    int* pointer = &myAge;//declare a int pointer.
 
     printf("%p\n", pointer);
 
     printf("%i\n", *pointer);
-    
 
+    int myInt; 
 
+    printf("%zu\n", sizeof(myInt));
 
     return 0; 
 }
